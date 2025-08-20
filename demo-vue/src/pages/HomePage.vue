@@ -5,7 +5,7 @@
         <h1>Coffee Demo</h1>
     </section>
     <FooterNav/> -->
-    <header>
+    <header class="header-fixed">
         <h1>☕️ LOGO</h1>
         <router-link to="/" class="user-link">login</router-link>
     </header>
