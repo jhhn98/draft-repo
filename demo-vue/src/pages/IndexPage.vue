@@ -5,6 +5,7 @@
         <h1>Coffee Demo</h1>
     </section>
     <FooterNav/> -->
+<!-- header, footer 컴포넌트 만들기 -->
     <header class="header-fixed">
         <h1>LOGO</h1>
         <router-link to="/" class="user-link">login</router-link>
@@ -18,7 +19,7 @@
     <footer class="footer-fixed">
         <nav class="footer-navigation">
             <router-link to="/" class="nav-link"><span>Home</span></router-link>
-            <router-link to="/" class="nav-link"><span>Order</span></router-link>
+            <router-link to="/order" class="nav-link"><span>Order</span></router-link>
             <router-link to="/" class="nav-link"><span>Pay</span></router-link>
             <router-link to="/" class="nav-link"><span>More</span></router-link>
         </nav>
