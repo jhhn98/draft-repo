@@ -13,8 +13,9 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tf
     box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
     display: block;
+    box-sizing: border-box;
 }
 body {
     line-height: 1;

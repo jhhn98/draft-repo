@@ -6,21 +6,21 @@
     </section>
     <FooterNav/> -->
     <header class="header-fixed">
-        <h1>☕️ LOGO</h1>
+        <h1>LOGO</h1>
         <router-link to="/" class="user-link">login</router-link>
     </header>
     <main class="main-container">
-        <h2>Demo Home</h2>
+        <h2>Home</h2>
         <section>
-            <p>Coffee Demo</p>
+            <p>본문 영역 index 페이지입니다.</p>
         </section>
     </main>
     <footer class="footer-fixed">
         <nav class="footer-navigation">
-            <router-link to="/">Home</router-link>
-            <router-link to="/">Order</router-link>
-            <router-link to="/">Pay</router-link>
-            <router-link to="/">More</router-link>
+            <router-link to="/" class="nav-link"><span>Home</span></router-link>
+            <router-link to="/" class="nav-link"><span>Order</span></router-link>
+            <router-link to="/" class="nav-link"><span>Pay</span></router-link>
+            <router-link to="/" class="nav-link"><span>More</span></router-link>
         </nav>
     </footer>
 </template>
