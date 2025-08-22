@@ -392,3 +392,21 @@ a {
         text-decoration: none;
     }
 }
+
+@font-face {
+    font-family: 'NSR';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/NSR-R.woff2') format('woff2');
+}
+
+body {
+    font-family: 'NSR', sans-serif;
+    font-size: 14px;
+    letter-spacing:-0.0625em;
+    line-height: 20px;
+    color: #333;
+    background-color: #fafafa;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
