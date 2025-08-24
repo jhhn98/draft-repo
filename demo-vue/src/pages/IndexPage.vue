@@ -6,23 +6,9 @@
     </section>
     <FooterNav/> -->
 <!-- header, footer 컴포넌트 만들기 -->
-    <header class="header-fixed">
-        <h1>LOGO</h1>
-        <router-link to="/" class="user-link">login</router-link>
-    </header>
-    <main class="main-container">
-        <h2>Home</h2>
-        <section>
-            <p>본문 영역 index 페이지입니다.</p>
-        </section>
-    </main>
-    <footer class="footer-fixed">
-        <nav class="footer-navigation">
-            <router-link to="/" class="nav-link"><span>Home</span></router-link>
-            <router-link to="/order" class="nav-link"><span>Order</span></router-link>
-            <router-link to="/" class="nav-link"><span>Pay</span></router-link>
-            <router-link to="/" class="nav-link"><span>More</span></router-link>
-        </nav>
-    </footer>
+    <h2>Home</h2>
+    <section>
+        <p>본문 영역 index 페이지입니다.</p>
+    </section>
 </template>
 <script setup lang="ts"></script>

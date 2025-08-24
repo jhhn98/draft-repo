@@ -1,20 +1,20 @@
 body{background:#222;}
 .header-fixed{position:fixed;top:0;left:50%;width:100%;max-width:760px;height:60px;transform:translateX(-50%);
-    h1{display:none;}
-    .user-link{display:block;position:absolute;top:50%;right:0;padding:5px 10px;background:#eee;border-radius:5px;transform:translateY(-50%);color:#222;font-size:14px;line-height:16px;}
+  h1{display:none;}
+  .user-link{display:block;position:absolute;top:50%;right:0;padding:5px 10px;background:#eee;border-radius:5px;transform:translateY(-50%);color:#222;font-size:14px;line-height:16px;}
 }
 .main-container{position:fixed;top:60px;left:50%;bottom:100px;width:100%;max-width:760px;min-height:450px;padding:50px;background:#fafafa;color:#666;font-size:14px;line-height:20px;transform:translateX(-50%);
-    h2{display:block;margin:0 0 15px;color:#333;font-size:18px;font-weight:600;line-height:20px;}
+  h2{display:block;margin:0 0 15px;color:#333;font-size:18px;font-weight:600;line-height:20px;}
 }
 .footer-fixed{position:fixed;left:50%;bottom:0;width:100%;max-width:760px;height:100px;transform:translateX(-50%);
-    &::before{display:block;position:absolute;top:0;left:0;width:100%;height:1px;background:#f6f6f6;}
+  &::before{display:block;position:absolute;top:0;left:0;width:100%;height:1px;background:#f6f6f6;}
 }
 .footer-navigation{display:flex;height:100%;align-items:center;justify-content:center;
-    .nav-link{display:flex;flex:0 0 25%;align-items:center;justify-content:center;height:100%;padding:10px;background:#dedede;text-align:center;
-        &:nth-child(even){background:#fafafa;}
-        span{display:block;flex:0 0 100%;}
-        &.current{background:#222;color:#fff;font-weight:600;}
-    }
+  .nav-link{display:flex;flex:0 0 25%;align-items:center;justify-content:center;height:100%;padding:10px;background:#dedede;text-align:center;
+    &:nth-child(even){background:#fafafa;}
+    span{display:block;flex:0 0 100%;}
+    &.current{background:#222;color:#fff;font-weight:600;}
+  }
 }
 
 .login-button{display:inline-block;margin:20px 0 0;padding:5px 10px;background:#ff6666;border-radius:5px;color:#222;font-size:14px;font-weight:600;line-height:16px;}

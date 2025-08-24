@@ -12,6 +12,12 @@
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
+    "baseUrl": ".",
+    "paths": { "@/*": ["./src/*"] },
+    "types": [
+      "node",
+      "vite/client"
+    ],
 
     /* Linting */
     "strict": true,

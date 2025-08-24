@@ -1,4 +1,4 @@
-// demo-vue/vite.config.ts
+// demo-vue/vite.config.tsx
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from 'node:path' // node:path 권장
@@ -22,5 +22,5 @@ export default defineConfig({
   }
 })
 
-// demo-vue/vite.config.ts
+// demo-vue/vite.config.tsx
 console.log('ASSETS PATH:', path.resolve(__dirname, '../../assets'))

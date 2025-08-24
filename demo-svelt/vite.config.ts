@@ -7,7 +7,7 @@ export default defineConfig({
 		expect: { requireAssertions: true },
 		projects: [
 			{
-				extends: './vite.config.ts',
+				extends: './vite.config.tsx',
 				test: {
 					name: 'client',
 					environment: 'browser',
@@ -22,7 +22,7 @@ export default defineConfig({
 				}
 			},
 			{
-				extends: './vite.config.ts',
+				extends: './vite.config.tsx',
 				test: {
 					name: 'server',
 					environment: 'node',
