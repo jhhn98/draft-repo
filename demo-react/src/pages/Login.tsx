@@ -1,17 +1,20 @@
-import { Fragment, useCallback } from 'react'
-import { useLocation, useNavigate, useMatches } from 'react-router-dom'
+import { Fragment, useCallback, useMemo } from 'react'
+import { useLocation, useNavigate, matchRoutes } from 'react-router-dom'
 import { useAuth } from '@/context/AuthContext'
+import { routes } from '@/routes/config'
 
 export default function Login() {
     const { login } = useAuth()
     const nav = useNavigate()
     const location = useLocation()
-    const matches = useMatches()
 
     const fromPath = (location.state as any)?.from?.pathname || '/'
 
-    const targetRoute = matches.find(m => m.pathname === fromPath)
-    const targetTitle = targetRoute?.handle?.title || 'Home'
+    const targetTitle = useMemo(() => {
+        const ms = matchRoutes(routes, fromPath);
+        const last = ms?.[ms.length - 1]
+        return (last?.route as any)?.handle?.meta?.title ?? 'Home'
+    }, [fromPath])
 
     const handleLogin = useCallback(() => {
         alert(`로그인되었습니다. '${targetTitle}' 페이지로 이동합니다.`)

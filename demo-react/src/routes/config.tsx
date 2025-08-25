@@ -15,7 +15,9 @@ export const routes = [
                 index: true,
                 element: <Home/>,
                 handle: {
-                    title: 'Home'
+                    meta: {
+                        title: 'Home'
+                    }
                 }
             },
             {
@@ -26,7 +28,9 @@ export const routes = [
                     </RequireAuth>
                 ),
                 handle: {
-                    title: '주문'
+                    meta: {
+                        title: '주문'
+                    }
                 }
             },
             {
@@ -37,7 +41,9 @@ export const routes = [
                     </RequireAuth>
                 ),
                 handle: {
-                    title: '결제'
+                    meta: {
+                        title: '결제'
+                    }
                 }
             },
             {
@@ -48,14 +54,18 @@ export const routes = [
                     </RequireAuth>
                 ),
                 handle: {
-                    title: '더보기'
+                    meta: {
+                        title: '더보기'
+                    }
                 }
             },
             {
                 path: 'login',
                 element: <Login/>,
                 handle: {
-                    title: '로그인'
+                    meta: {
+                        title: '로그인'
+                    }
                 }
             }
         ]
