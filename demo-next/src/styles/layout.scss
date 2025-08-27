@@ -1,0 +1,5 @@
+body{background:#222;}
+.main-container{position:fixed;top:60px;left:50%;bottom:100px;width:100%;max-width:760px;min-height:450px;padding:50px;background:#fafafa;color:#666;font-size:14px;line-height:20px;transform:translateX(-50%);
+  h2{display:block;margin:0 0 15px;color:#333;font-size:18px;font-weight:600;line-height:20px;}
+}
+.login-button{display:inline-block;margin:20px 0 0;padding:5px 10px;background:#ff6666;border-radius:5px;color:#222;font-size:14px;font-weight:600;line-height:16px;}
